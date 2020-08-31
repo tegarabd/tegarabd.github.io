@@ -1,0 +1,95 @@
+@font-face {
+	font-family: 'BebasKai';
+	src: url(../font/bebaskai-webfont.woff) format('woff');
+}
+
+body {
+	background: #ccc;
+}
+
+.container {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	width: 1080px;
+	margin: auto;
+	padding-top: 40px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 40px;
+	border-right: rgb(95, 95, 95) 7px solid;
+	border-left: rgb(90, 90, 90) 7px solid;
+	background-color: white;
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto auto auto;
+}
+
+.container header {
+	display: grid;
+	grid-template-columns: 250px 250px auto;
+	grid-template-rows: auto;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+header img {
+	width: 250px;
+	height: 250px;
+}
+
+header .judul {
+	font-size: 100px;
+	text-align: center;
+	color: darkcyan;
+	font-weight: 600;
+	padding-top: 20px;
+}
+
+.container main {
+	display: grid;
+	grid-template-columns: 500px auto;
+	grid-template-rows: auto;
+	border-top: rgb(43, 85, 77) 10px double;
+	padding-top: 30px;
+}
+
+main img {
+	width: 500px;
+	height: 600px;
+	border: rgb(0, 116, 116) 15px solid;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+h2 {
+	font-size: 64px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+	text-align: center;
+	color: rgb(131, 173, 172);
+	font-weight: 600;
+	padding-top: 15px;
+}
+
+h3 {
+	font-size: 36px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+	text-align: center;
+	color: rgb(131, 173, 172);
+	font-weight: 600;
+	padding-top: 15px;
+}
+
+.container footer {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto;
+	grid-template-rows: auto auto auto auto;
+	box-sizing: border-box;
+	box-sizing: content-box;
+}
+
+footer img {
+	width: 120px;
+	height: 160px;
+	padding: 3px;
+	object-fit: cover;
+	box-sizing: border-box;
+}
